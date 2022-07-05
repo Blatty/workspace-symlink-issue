@@ -1,10 +1,15 @@
 {
-  "name": "workspace-symlink-issue",
+  "name": "@acme/workspace-symlink-issue",
   "version": "0.0.0",
   "description": "Reproduce symlink workspace issue.",
   "main": "index.js",
   "author": "Nathan Hammond <nathan.hammond@vercel.com>",
   "private": true,
+  "scripts": {
+    "build-api": "cd apps/api && yarn run build",
+    "build-dep": "cd packages/runtime-dependency && yarn run build",
+    "build": "yarn run build-api && yarn run build-dep"
+  },
   "workspaces": [
     "apps/*",
     "packages/*"

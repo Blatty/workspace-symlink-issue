@@ -1,4 +1,4 @@
-const helloWorld = require('runtime-dependency');
+const helloWorld = require('../build/server.js');
 
 module.exports = async function serve(req, res) {
   const message = helloWorld();

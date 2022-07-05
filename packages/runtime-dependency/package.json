@@ -1,7 +1,13 @@
 {
-  "name": "runtime-dependency",
+  "name": "@acme/runtime-dependency",
   "version": "0.0.0",
   "description": "A runtime dependency",
-  "main": "index.js",
-  "private": true
+  "main": "./build/index.js",
+  "private": true,
+  "files": [
+    "build/**"
+  ],
+  "scripts": {
+    "build": "mkdir -p build && cp src/index.js build/index.js"
+  }
 }
