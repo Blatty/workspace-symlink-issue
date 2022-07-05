@@ -2,11 +2,11 @@
   "name": "@acme/api",
   "version": "0.0.0",
   "description": "API server",
-  "main": "index.js",
+  "main": "api/index.js",
   "private": true,
   "scripts": {
-    "build": "mkdir -p build && cp src/server.js build/server.js",
-    "start": "echo 'start' && node build/server.js"
+    "build": "echo 'build'",
+    "start": "echo 'start'"
   },
   "dependencies": {
     "@acme/runtime-dependency": "*"
