@@ -1,0 +1,12 @@
+{
+  "name": "workspace-symlink-issue",
+  "version": "0.0.0",
+  "description": "Reproduce symlink workspace issue.",
+  "main": "index.js",
+  "author": "Nathan Hammond <nathan.hammond@vercel.com>",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}

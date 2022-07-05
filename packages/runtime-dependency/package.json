@@ -1,0 +1,7 @@
+{
+  "name": "runtime-dependency",
+  "version": "0.0.0",
+  "description": "A runtime dependency",
+  "main": "index.js",
+  "private": true
+}

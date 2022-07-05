@@ -1,0 +1,14 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "description": "API server",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "echo 'build'",
+    "run": "echo 'run'"
+  },
+  "dependencies": {
+    "runtime-dependency": "*"
+  }
+}
