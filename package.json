@@ -8,7 +8,7 @@
   "scripts": {
     "build-api": "cd apps/api && yarn run build",
     "build-dep": "cd packages/runtime-dependency && yarn run build",
-    "build": "yarn run build-api && yarn run build-dep"
+    "build": "yarn run build-dep && yarn run build-api"
   },
   "workspaces": [
     "apps/*",
